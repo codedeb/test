@@ -1,4 +1,6 @@
+def test(*args):
+    return sum(*args)
 
-print('hello world2')
-print('hello world')
-print('yellow ')
+
+obj = test([1, 2, 3, 4])
+print(obj)
