@@ -9,5 +9,7 @@ def exchangeZero(nums):
         i += 1
     return nums
 
+
 obj = exchangeZero([1,0,1,0,1,1,0,1])
+
 print(obj)
